@@ -41,6 +41,10 @@ git push -f origin <branch_name>
 
 ```git reset --hard HEAD~3``` :arrow_right: Delete local commits, destroying local changes
 
+**Force update the local, destroying all local commits and changes:**
+
+```git fetch --all && git reset --hard origin/master```
+
 ## Branch operations
 
 **Create new branch**:
